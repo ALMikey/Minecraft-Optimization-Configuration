@@ -1,0 +1,36 @@
+info:
+  version: '1.0'
+web-services:
+  token: ''
+inactive-goal-selector-throttle: true
+enable-suffocation-optimization: true
+# 优化实体大脑
+# 他们离玩家很远
+dab:
+  enabled: true
+  start-distance: 8
+  max-tick-freq: 20
+  activation-dist-mod: 7
+  blacklisted-entities: []
+# 这些值定义实体的最大寿命。如果
+# 实体在此列表中，并且它生存的时间超过
+# 那么它将被删除。将值设置为
+# -1 禁用此功能。
+entity_timeouts:
+  SNOWBALL: -1
+  LLAMA_SPIT: -1
+enable-async-mob-spawning: true
+enable-async-pathfinding: false
+# 优化射弹设置
+projectile:
+  max-loads-per-tick: 10
+  max-loads-per-projectile: 10
+enable-books: true
+sentry-dsn: ''
+enable-async-entity-tracker: false
+flare:
+  url: https://flare.airplane.gg
+# 不属于其他地方的设置
+misc:
+  disable-method-profiler: true
+  disable-out-of-order-chat: false
